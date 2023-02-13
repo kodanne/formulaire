@@ -1,0 +1,113 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+body{
+    width: 100%;
+    margin: auto;
+    background:linear-gradient(to right, rgb(54, 10, 69), rgb(159, 55, 95));
+    
+}
+form{
+    display: flex;
+   width: 60%;
+   margin: auto;
+   padding: 100px;
+}
+.in{
+    border: 0px;
+    border-bottom:1px solid white ;
+    background-color:rgb(4, 4, 77)  ;
+    position: relative;
+    left: 20px;
+}
+p{
+    position: relative;
+    top: 33%;
+    background-color: rgba(150, 36, 36,0.7);
+    padding-bottom: 70px;
+    margin-top: 400px;
+    margin-right: 270px;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.left{
+    background-color:rgb(4, 4, 77) ;
+    padding: 70px;
+    padding-right: 100px;
+    
+}
+.right{
+    
+    background-size: cover;
+    background-image: url(portfolio/restaurant.jpeg);
+}
+label{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: sans-serif;
+    display: block;
+    padding-right: 70px;
+}
+h1{
+    color: rgb(133, 32, 111);
+    font: 3em sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+input{
+    width: 245px;
+    
+}
+#send{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    float: left;
+    top: 20px;
+    border: 0px;
+    background:linear-gradient( rgb(159, 55, 95),rgb(54, 10, 69));
+}
+#price, #people{
+   border: 0px;
+    width: 70px;
+    height: 30px;
+    background-color:rgb(4, 4, 77)  ;
+    font-size: 20px;
+    text-align: left;
+}
+#name{
+    font-size: 20px;
+    
+}
+textarea{
+    width: 250px;
+    
+}
+.d1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width: 1000px){
+    .right{
+        display: none;
+    }
+    body{
+        
+        background:white;
+        
+        
+    }
+}
+left{
+    background-color:rgb(4, 4, 77) ;
+    padding: 0px;
+    padding-right: 0px;
+}
